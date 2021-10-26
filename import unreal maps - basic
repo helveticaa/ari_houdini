@@ -103,11 +103,11 @@ for file in folder:
                         #print ("full file path is as follows: " + fullFilePath)
                         mapTypeNode.parm("filename").set(fullRelativeFilePath)
                         
-    ImportTextureFile(diffuseColor, "Diffuse")
+    ImportTextureFile(diffuseColor, "BaseColor")
     #ImportTextureFile(specFaceColor, "SpecularFaceColor")
     #ImportTextureFile(specRoughness, "SpecularRoughness")
     #ImportTextureFile(displacement, "Displacement")
-    ImportTextureFile(ORM, "OcclusoinRoughnessMetallic")
+    ImportTextureFile(ORM, "OcclusionRoughnessMetallic")
     ImportTextureFile(normal, "Normal")
     
 #layout all shader nodes
